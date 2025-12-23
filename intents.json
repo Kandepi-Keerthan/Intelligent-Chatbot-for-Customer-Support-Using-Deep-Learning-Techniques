@@ -1,0 +1,39 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning", "Is anyone there?"],
+      "responses": ["Hello! Welcome to Customer Support.", "Hi there! How can I help you today?", "Greetings! I am your virtual assistant."]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye", "Exit"],
+      "responses": ["Goodbye! Have a great day.", "See you soon!", "Thank you for contacting support."]
+    },
+    {
+      "tag": "order_status",
+      "patterns": ["Where is my order?", "Track my package", "Status of order", "shipment delay", "when will it arrive"],
+      "responses": ["You can track your order on our 'Track Order' page. If you have an Order ID, please share it here."]
+    },
+    {
+      "tag": "refund",
+      "patterns": ["I want a refund", "return item", "money back", "broken item", "received damaged product"],
+      "responses": ["We offer a 30-day return policy. If your item is damaged, please upload a photo to our portal or contact 'returns@example.com'."]
+    },
+    {
+      "tag": "payment_issue",
+      "patterns": ["payment failed", "card rejected", "transaction error", "money deducted but order not placed"],
+      "responses": ["If your payment failed but money was deducted, it will be automatically refunded within 5-7 business days."]
+    },
+    {
+      "tag": "delivery_options",
+      "patterns": ["do you ship to New York", "shipping cost", "international shipping", "fast delivery"],
+      "responses": ["We offer Standard Shipping (5-7 days) and Express Shipping (2 days). Shipping is free for orders over $50."]
+    },
+    {
+      "tag": "human_agent",
+      "patterns": ["speak to a person", "connect me to agent", "call support", "manager"],
+      "responses": ["I can connect you to a human agent. Please hold on while I transfer this chat..."]
+    }
+  ]
+}
